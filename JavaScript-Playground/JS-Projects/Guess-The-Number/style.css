@@ -6,10 +6,10 @@ body {
 
 .top-flex {
   display: flex;
-  border: 1px solid sandybrown;
-  margin: 10px 40px;
   justify-content: space-between;
+  margin: 10px 40px;
   font-size: 25px;
+  border: 1px solid sandybrown;
 }
 
 .top-flex button {
@@ -21,6 +21,20 @@ body {
 .main-heading-class {
   border: 1px solid sandybrown;
   text-align: center;
-  margin: 2% 35%;
+  margin: 4% 33%;
   font-size: 50px;
+}
+
+.secret {
+  border: 1px solid sandybrown;
+  padding: 0px 40px;
+  font-size: 50px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin: 0 45%;
+}
+
+.hr-class {
+  margin-top: 4%;
 }
