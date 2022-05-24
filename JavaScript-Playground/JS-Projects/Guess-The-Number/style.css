@@ -15,10 +15,12 @@ body {
 .top-flex button {
   font-size: large;
   background-color: transparent;
+  text-transform: uppercase;
 }
 
 .main-heading-class {
+  border: 1px solid sandybrown;
   text-align: center;
-  margin-top: 4%;
+  margin: 2% 35%;
   font-size: 50px;
 }
