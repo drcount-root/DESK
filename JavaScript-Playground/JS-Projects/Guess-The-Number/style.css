@@ -1,10 +1,15 @@
-body{
-    font-family: 'Neucha', cursive;
+body {
+  font-family: "Neucha", cursive;
+  box-sizing: border-box;
+}
+
+.top-flex {
+  border: 1px solid blueviolet;
+  margin: 10px 40px;
 }
 
 .main-heading-class {
   text-align: center;
   margin-top: 4%;
   font-size: 50px;
-
 }
