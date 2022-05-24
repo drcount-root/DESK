@@ -7,7 +7,7 @@ body {
 .top-flex {
   display: flex;
   justify-content: space-between;
-  margin: 10px 40px;
+  margin: 40px;
   font-size: 25px;
   border: 1px solid sandybrown;
 }
@@ -36,5 +36,17 @@ body {
 }
 
 .hr-class {
-  margin-top: 4%;
+  margin: 5% 0;
+}
+
+#parentDiv {
+  border: 1px solid sandybrown;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ChildDiv {
+  border: 1px solid sandybrown;
+  margin: 0 40px;
+  padding: 100px 250px;
 }

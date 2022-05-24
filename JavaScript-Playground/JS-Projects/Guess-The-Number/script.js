@@ -22,3 +22,21 @@ body_Tag.appendChild(secretNumPara);
 const hr = document.createElement("hr");
 body_Tag.appendChild(hr);
 hr.setAttribute("class", "hr-class");
+
+// The parent div to contain left-div & right-div
+
+const parentDiv = document.createElement("div");
+parentDiv.setAttribute("id", "parentDiv");
+body_Tag.appendChild(parentDiv);
+
+// left-div
+const leftDiv = document.createElement("div");
+leftDiv.setAttribute("class", "ChildDiv");
+leftDiv.innerText = "The input section";
+parentDiv.appendChild(leftDiv);
+
+// right-div
+const rightDiv = document.createElement("div");
+rightDiv.setAttribute("class", "ChildDiv");
+rightDiv.innerText = "The input section";
+parentDiv.appendChild(rightDiv);
