@@ -1,5 +1,10 @@
+body{
+    font-family: 'Neucha', cursive;
+}
+
 .main-heading-class {
   text-align: center;
   margin-top: 4%;
   font-size: 50px;
+
 }
