@@ -46,7 +46,7 @@ parentDiv.appendChild(rightDiv);
 // left
 const input_box = document.createElement("input");
 input_box.type = "number";
-input_box.setAttribute("id", "click-btn");
+input_box.setAttribute("id", "input-box");
 leftDiv.appendChild(input_box);
 
 const check_btn = document.createElement("button");

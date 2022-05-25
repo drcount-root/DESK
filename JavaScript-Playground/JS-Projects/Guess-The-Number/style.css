@@ -62,9 +62,15 @@ body {
   height: 3em;
   width: 7em;
   font-weight: 800;
+  border-radius: 7px;
+  border: 1px solid black;
 }
 
-#click-btn {
-  width: 10em;
-  height: 5em;
+#input-box {
+  text-align: center;
+  font-size: 30px;
+  width: 5em;
+  height: 2em;
+  border-radius: 7px;
+  border: 1px solid black;
 }
