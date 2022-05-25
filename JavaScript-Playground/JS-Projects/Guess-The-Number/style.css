@@ -16,6 +16,7 @@ body {
   font-size: large;
   background-color: transparent;
   text-transform: uppercase;
+  border-radius: 7px;
 }
 
 .main-heading-class {
@@ -64,13 +65,21 @@ body {
   font-weight: 800;
   border-radius: 7px;
   border: 1px solid black;
+  background-color: transparent;
 }
 
 #input-box {
+  margin-top: -2em;
   text-align: center;
   font-size: 30px;
   width: 5em;
   height: 2em;
   border-radius: 7px;
   border: 1px solid black;
+  background-color: transparent;
+}
+
+.guessing-para {
+  font-size: 30px;
+  margin-top: -2em;
 }

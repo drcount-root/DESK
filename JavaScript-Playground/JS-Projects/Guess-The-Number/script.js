@@ -52,3 +52,9 @@ leftDiv.appendChild(input_box);
 const check_btn = document.createElement("button");
 check_btn.innerText = "Click Me!";
 leftDiv.appendChild(check_btn);
+
+// right
+const para = document.createElement("p");
+para.setAttribute("class", "guessing-para");
+para.innerText = "Start guessing ...";
+rightDiv.appendChild(para);
