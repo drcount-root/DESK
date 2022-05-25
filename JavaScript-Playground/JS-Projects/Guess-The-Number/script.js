@@ -51,12 +51,13 @@ leftDiv.appendChild(input_box);
 
 const check_btn = document.createElement("button");
 check_btn.innerText = "Click Me!";
+check_btn.setAttribute("id", "check_btn");
 leftDiv.appendChild(check_btn);
 
 // right
 const para = document.createElement("p");
 para.setAttribute("class", "guessing-para");
-para.innerText = "Start guessing ...";
+para.innerText = "Start guessing . . .";
 rightDiv.appendChild(para);
 
 const score = document.createElement("div");
@@ -68,3 +69,16 @@ const highscore = document.createElement("div");
 highscore.setAttribute("class", "highscore");
 highscore.innerHTML = "<span>HIGHSCORE : </span><span>0</span>";
 rightDiv.appendChild(highscore);
+
+// GAME-LOGIC
+
+// Random Secret Number Generator Engine
+let secret_number = Math.trunc(Math.random() * 20) + 1;
+console.log(secret_number);
+
+// Click Me! button
+const click_button = document.getElementById("check_btn");
+click_button.addEventListener("click", () => {
+  const inputNumber = document.getElementById("input-box").value;
+  console.log(inputNumber);
+});
