@@ -7,9 +7,9 @@ body {
 .top-flex {
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  margin: 30px 40px;
   font-size: 25px;
-  border: 1px solid sandybrown;
+  /* border: 1px solid sandybrown; */
 }
 
 .top-flex button {
@@ -49,4 +49,9 @@ body {
   border: 1px solid sandybrown;
   margin: 0 40px;
   padding: 100px 250px;
+}
+
+#click-btn {
+  width: 10em;
+  height: 5em;
 }
