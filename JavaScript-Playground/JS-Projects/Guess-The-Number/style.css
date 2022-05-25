@@ -117,3 +117,5 @@ body {
   font-weight: 600;
   width: 10rem;
 }
+
+/* Some media queries for responsive like left & right divs aligned as columns in smaller view */
