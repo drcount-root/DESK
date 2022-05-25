@@ -33,14 +33,14 @@ body_Tag.appendChild(parentDiv);
 const leftDiv = document.createElement("div");
 leftDiv.setAttribute("class", "ChildDiv");
 leftDiv.setAttribute("id", "LeftChildDiv");
-leftDiv.innerText = "The input section";
+// leftDiv.innerText = "The input section";
 parentDiv.appendChild(leftDiv);
 
 // right-div
 const rightDiv = document.createElement("div");
 rightDiv.setAttribute("class", "ChildDiv");
 rightDiv.setAttribute("id", "RightChildDiv");
-rightDiv.innerText = "The input section";
+// rightDiv.innerText = "The input section";
 parentDiv.appendChild(rightDiv);
 
 // left
@@ -48,3 +48,7 @@ const input_box = document.createElement("input");
 input_box.type = "number";
 input_box.setAttribute("id", "click-btn");
 leftDiv.appendChild(input_box);
+
+const check_btn = document.createElement("button");
+check_btn.innerText = "Click Me!";
+leftDiv.appendChild(check_btn);

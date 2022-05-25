@@ -51,6 +51,19 @@ body {
   padding: 100px 250px;
 }
 
+#LeftChildDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+#LeftChildDiv button {
+  height: 3em;
+  width: 7em;
+  font-weight: 800;
+}
+
 #click-btn {
   width: 10em;
   height: 5em;
