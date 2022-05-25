@@ -58,3 +58,13 @@ const para = document.createElement("p");
 para.setAttribute("class", "guessing-para");
 para.innerText = "Start guessing ...";
 rightDiv.appendChild(para);
+
+const score = document.createElement("div");
+score.setAttribute("class", "score");
+score.innerHTML = "<span>SCORE : </span><span>0</span>";
+rightDiv.appendChild(score);
+
+const highscore = document.createElement("div");
+highscore.setAttribute("class", "highscore");
+highscore.innerHTML = "<span>HIGHSCORE : </span><span>0</span>";
+rightDiv.appendChild(highscore);

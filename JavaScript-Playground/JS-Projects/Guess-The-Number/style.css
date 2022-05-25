@@ -20,9 +20,9 @@ body {
 }
 
 .main-heading-class {
-  border: 1px solid sandybrown;
+  /* border: 1px solid sandybrown; */
   text-align: center;
-  margin: 4% 33%;
+  margin: 2% 33%;
   font-size: 50px;
 }
 
@@ -33,7 +33,7 @@ body {
   font-weight: 600;
   display: flex;
   justify-content: center;
-  margin: 0 45%;
+  margin: 5% 45%;
 }
 
 .hr-class {
@@ -41,15 +41,15 @@ body {
 }
 
 #parentDiv {
-  border: 1px solid sandybrown;
+  /* border: 1px solid sandybrown; */
   display: flex;
   justify-content: space-between;
 }
 
 .ChildDiv {
-  border: 1px solid sandybrown;
+  /* border: 1px solid sandybrown; */
   margin: 0 40px;
-  padding: 100px 250px;
+  padding: 50px 250px;
 }
 
 #LeftChildDiv {
@@ -79,7 +79,38 @@ body {
   background-color: transparent;
 }
 
+#RightChildDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
 .guessing-para {
   font-size: 30px;
+  font-weight: 600;
   margin-top: -2em;
+}
+
+.score {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 20%;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 10rem;
+}
+
+.highscore {
+  margin-top: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 20%;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 10rem;
 }
