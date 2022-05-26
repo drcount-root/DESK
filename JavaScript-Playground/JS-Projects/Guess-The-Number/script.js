@@ -71,14 +71,3 @@ highscore.innerHTML = "<span>HIGHSCORE : </span><span>0</span>";
 rightDiv.appendChild(highscore);
 
 // GAME-LOGIC
-
-// Random Secret Number Generator Engine
-let secret_number = Math.trunc(Math.random() * 20) + 1;
-console.log(secret_number);
-
-// Click Me! button
-const click_button = document.getElementById("check_btn");
-click_button.addEventListener("click", () => {
-  const inputNumber = document.getElementById("input-box").value;
-  console.log(inputNumber);
-});
