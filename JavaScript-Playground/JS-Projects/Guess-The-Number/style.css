@@ -42,12 +42,14 @@ body {
 }
 
 /* /////////////////////////////////////////////////////////////// */
+/* Replace the code below - modify it */
 
 #parentDiv {
   border: 1px solid sandybrown;
   display: flex;
   justify-content: space-between;
   /* flex-wrap: wrap; */
+  justify-content: center;
 }
 
 .ChildDiv {
@@ -92,6 +94,7 @@ body {
   flex-direction: column;
   row-gap: 20px;
   align-items: center;
+  align-content: center;
   /* flex-wrap: wrap; */
 }
 

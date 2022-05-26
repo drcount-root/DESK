@@ -71,6 +71,3 @@ highscore.innerHTML = "<span>HIGHSCORE : </span><span>0</span>";
 rightDiv.appendChild(highscore);
 
 // GAME-LOGIC
-// 26C1
-// 26C2
-// 26C3
