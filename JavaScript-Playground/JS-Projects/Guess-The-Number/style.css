@@ -21,10 +21,13 @@ body {
 
 .main-heading-class {
   /* border: 1px solid sandybrown; */
-  text-align: center;
-  margin: 2% 33%;
+  display: flex;
+  justify-content: center;
+  /* margin: 2% 33%; */
   font-size: 50px;
 }
+
+/* /////////////////////////////////////////////////////////////// */
 
 .secret {
   border: 1px solid sandybrown;
@@ -50,6 +53,8 @@ body {
   /* border: 1px solid sandybrown; */
   margin: 0 40px;
   padding: 50px 250px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #LeftChildDiv {
@@ -84,6 +89,7 @@ body {
   flex-direction: column;
   row-gap: 20px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .guessing-para {
