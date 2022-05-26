@@ -27,30 +27,31 @@ body {
   font-size: 50px;
 }
 
-/* /////////////////////////////////////////////////////////////// */
-
 .secret {
-  border: 1px solid sandybrown;
-  padding: 0px 40px;
-  font-size: 50px;
-  font-weight: 600;
   display: flex;
   justify-content: center;
-  margin: 5% 45%;
+  margin: 3% 48%;
+  border: 2px solid sandybrown;
+  border-radius: 7px;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .hr-class {
-  margin: 5% 0;
+  margin: 3% 0;
 }
 
+/* /////////////////////////////////////////////////////////////// */
+
 #parentDiv {
-  /* border: 1px solid sandybrown; */
+  border: 1px solid sandybrown;
   display: flex;
   justify-content: space-between;
+  /* flex-wrap: wrap; */
 }
 
 .ChildDiv {
-  /* border: 1px solid sandybrown; */
+  border: 1px solid sandybrown;
   margin: 0 40px;
   padding: 50px 250px;
   display: flex;
@@ -74,7 +75,7 @@ body {
 }
 
 #input-box {
-  margin-top: -15%;
+  margin-top: 25%;
   text-align: center;
   font-size: 30px;
   width: 5em;
@@ -89,13 +90,13 @@ body {
   flex-direction: column;
   row-gap: 20px;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .guessing-para {
   font-size: 30px;
   font-weight: 600;
-  margin-top: -2em;
+  margin-top: 0%;
   border: 1px solid;
   width: 150%;
   text-align: center;
