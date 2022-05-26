@@ -73,4 +73,4 @@ rightDiv.appendChild(highscore);
 // GAME-LOGIC
 // 26C1
 // 26C2
-//
+// 26C3
