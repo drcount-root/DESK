@@ -1,8 +1,11 @@
 {
-  "myfirstName": "Subham",
-  "mylastName": "Sahu",
-  "myage": 24,
+  "jsonDataTypes": ["String", "Number", "Array", "Object", "boolean", "null"],
+  "myFirstName": "Subham",
+  "myMiddleName": null,
+  "myLastName": "Sahu",
+  "myAge": 24,
   "myDOB": "08-10-1997",
+  "isDisable": false,
 
   "employeesArr": ["John", "Anna", "Peter"],
 
