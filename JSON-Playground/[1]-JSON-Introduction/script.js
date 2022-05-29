@@ -5,8 +5,8 @@
 
 // Way - 2 to access JSON
 
-fetch("./intor.json")
-  .then((response) => {
-    return response.json();
-  })
-  .then((jsondata) => console.log(jsondata));
+// fetch("./intor.json")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((jsondata) => console.log(jsondata));
