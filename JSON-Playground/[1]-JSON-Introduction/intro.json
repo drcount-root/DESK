@@ -1,6 +1,12 @@
 {
-  "firstName": "Subham",
-  "lastName": "Sahu",
-  "age": 24,
-  "DOB": "08-10-1997"
+  "myfirstName": "Subham",
+  "mylastName": "Sahu",
+  "myage": 24,
+  "myDOB": "08-10-1997",
+
+  "employees": [
+    { "firstName": "John", "lastName": "Doe" },
+    { "firstName": "Anna", "lastName": "Smith" },
+    { "firstName": "Peter", "lastName": "Jones" }
+  ]
 }
