@@ -4,9 +4,13 @@
   "myage": 24,
   "myDOB": "08-10-1997",
 
-  "employees": [
+  "employeesArr": ["John", "Anna", "Peter"],
+
+  "employeesArray": [
     { "firstName": "John", "lastName": "Doe" },
     { "firstName": "Anna", "lastName": "Smith" },
     { "firstName": "Peter", "lastName": "Jones" }
-  ]
+  ],
+
+  "employeeObject": { "name": "John", "age": 30, "city": "New York" }
 }
